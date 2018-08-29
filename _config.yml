@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            LeeJunHyun
+title:            JunHyun
 tagline:          'Blog'
 description:      'about Deep Learning'
 url:              https://leejunhyun.github.io
@@ -37,4 +37,4 @@ sidebar_home_link:  true
 github:
   repo:             https://github.com/LeeJunHyun/
 
-facebook: https://www.facebook.com/junhyun.lee1222
+facebook:          https://www.facebook.com/junhyun.lee1222
