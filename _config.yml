@@ -6,7 +6,8 @@ highlighter:      rouge
 title:            JunHyun
 tagline:          'Blog'
 description:      'about Deep Learning'
-url:              https://leejunhyun.github.io
+#url:              http://127.0.0.1:4000
+url:              http://leejunhyun.github.io
 baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -21,6 +22,9 @@ author:
 paginate:         5
 # paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
+
+disqus:
+  shortname: junhyun-blog
 
 plugins:
   - jekyll-feed
