@@ -9,11 +9,11 @@ tags:
   - implementation
 ---
 
-Reference : [Tensorflow Basic classification](https://www.tensorflow.org/tutorials/keras/basic_classification)<br>
-`Tensorflow`를 이용하여 Fashion-MNIST dataset을 classification 하는 튜토리얼입니다.<br>
+Reference : [Tensorflow Basic Classification](https://www.tensorflow.org/tutorials/keras/basic_classification)<br>
+`Tensorflow`를 이용하여 Fashion-MNIST dataset을 classification 하는 튜토리얼입니다. 좀더 기초적인 low-level API 가이드는 [Tensorflow  Guide]()를 참조하시기 바랍니다.<br>
 
-![Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist/blob/master/doc/img/fashion-mnist-sprite.png?raw=true)
-
+![Fashion-MNIST](/assets/img/Tensorflow/Fashion-MNIST.png)
+*Fashion-MNIST dataset*
 ```python
 # TensorFlow and tf.keras
 import tensorflow as tf
