@@ -7,6 +7,7 @@ tags:
   - deep learning
   - tensorflow
   - implementation
+  - tutorial
 ---
 
 Reference : [TensorFlow Basic Classification](https://www.tensorflow.org/tutorials/keras/basic_classification)<br>
