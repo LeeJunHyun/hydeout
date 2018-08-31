@@ -15,3 +15,9 @@ sidebar_link: true
   Machine Learning, Deep Learning, Biomedical Engineering, Computer Vision, Signal Proccessing
 </p>
 
+### Contact :
+E-mail :    ljhyun33@korea.ac.kr<br>
+Wechat ID : Ant_LJH<br>
+<a href="https://github.com/LeeJunHyun/">Github</a>
+<a href="https://www.facebook.com/junhyun.lee1222">Facebook</a>
+<a href="https://www.linkedin.com/in/junhyun-lee-2a2801136/">Linkedin</a>   

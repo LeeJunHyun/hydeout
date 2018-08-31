@@ -2,15 +2,27 @@
   {% if site.github.repo %}
     <a id="github-link"
        class="icon" title="Github Project" aria-label="Github Project"
-       href="{{ site.github.repo }}">
+       href="{{ site.github.repo }}" target="_blank">
       {% include svg/github.svg %}
     </a>
   {% endif %}
 
   <a id="facebook-link"
     class="icon" title="Facebook" aria-label="Facebook"
-    href="{{ site.facebook }}">
+    href="{{ site.facebook }}" target="_blank">
   {% include svg/facebook.svg %}
+  </a>
+
+  <a id="wechat-link"
+    class="icon" title="Wechat" aria-label="Wechat"
+    href="https://leejunhyun.github.io/about.html" target="">
+  {% include svg/wechat.svg %}
+  </a>
+
+  <a id="linkedin-link"
+  class="icon" title="Linkedin" aria-label="Linkedin"
+  href="{{ site.linkedin }}" target="_blank">
+  {% include svg/linkedin.svg %}
   </a>
 
   {% comment %}
