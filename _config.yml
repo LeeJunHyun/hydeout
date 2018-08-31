@@ -29,7 +29,7 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  - jekyll-archive
+  - jekyll-archives
 
 # Custom vars
 sidebar_home_link:  true
