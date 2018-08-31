@@ -3,9 +3,8 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            JunHyun
-tagline:          'Blog'
-description:      'about Deep Learning'
+title:            'Study log'
+description:      'JunHyun Lee'
 #url:              http://127.0.0.1:4000
 url:              http://leejunhyun.github.io
 baseurl:          ''
@@ -32,7 +31,6 @@ plugins:
   - jekyll-paginate
 
 # Custom vars
-version:            3.7.1
 sidebar_home_link:  true
 # sidebar_blog_link:  '/blog'   # By default, your home page is your blog
                                 # page. If you change your paginate_path,
