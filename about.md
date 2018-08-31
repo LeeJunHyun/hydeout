@@ -4,10 +4,14 @@ title: About
 sidebar_link: true
 ---
 
+### Profile :
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it
-  for your own use upon downloading. Carry on!
+  B.S. in Biomedical Engineering, <a href="http://www.korea.ac.kr" target="_blank">Korea Univ.</a>, 2011 - 2017<br>
+  (Present) MS&Ph.D Integration Course in Computer Engineering, <a href="http://www.korea.ac.kr" target="_blank">Korea Univ.</a>
 </p>
 
-To make pages show up in the sidebar, add `sidebar_link: true` to the front
-matter.
+### Interests : 
+<p class="message">
+  Machine Learning, Deep Learning, Biomedical Engineering, Computer Vision, Signal Proccessing
+</p>
+
