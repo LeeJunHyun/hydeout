@@ -29,7 +29,6 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-
 # Custom vars
 sidebar_home_link:  true
 

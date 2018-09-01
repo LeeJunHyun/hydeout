@@ -31,11 +31,14 @@
   {% endcomment %}
   {% assign tags_page = false %}
   {% assign search_page = false %}
+  {% assign archive_page = false %}
   {% for node in site.pages %}
     {% if node.layout == "tags" %}
       {% assign tags_page = node %}
     {% elsif node.layout == "search" %}
       {% assign search_page = node %}
+    {% elsif node.layout == "archive" %}
+      {% assign archive_page = node %}
     {% endif %}
   {% endfor %}
 
@@ -56,6 +59,15 @@
       {% include svg/search.svg %}
     </a>
   {% endif %}
-
+  <br>
+  {% if archive_page %}
+    <a id="archive-link"
+       class="icon{% if page.url == '/archive' %} active{% endif %}"
+       title="Archive" aria-label="Archive"
+       href="{{ site.baseurl }}{{ archive_page.url }}">
+      Archive
+    </a>
+  {% endif %}
+  <br>
   {% include custom-icon-links.html %}
 </nav>

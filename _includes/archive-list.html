@@ -1,0 +1,11 @@
+{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
+{% assign postsByMonth = site.posts | group_by_exp:"post", "post.date | date: '%B'"  %}
+{% for year in postsByYear %}
+  <h2 id="{{ year.name | slugify }}" class="archive__subtitle">{{ year.name }}</h2>
+    {% for month in postsByMonth %}
+        <h3 id="{{ month.name | slugify }}" class="archive__subtitle">{{ month.name }}</h2>
+        {% for post in month.items %}
+            {% include archive-single.html %}
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
