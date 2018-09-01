@@ -42,14 +42,6 @@
     {% endif %}
   {% endfor %}
 
-  {% if tags_page %}
-    <a id="tags-link"
-       class="icon{% if page.url == '/tags' %} active{% endif %}"
-       title="Tags" aria-label="Tags"
-       href="{{ site.baseurl }}{{ tags_page.url }}">
-      {% include svg/tags.svg %}
-    </a>
-  {% endif %}
 
   {% if search_page %}
     <a id="search-link"
@@ -59,15 +51,18 @@
       {% include svg/search.svg %}
     </a>
   {% endif %}
-  <br>
-  {% if archive_page %}
-    <a id="archive-link"
-       class="icon{% if page.url == '/archive' %} active{% endif %}"
-       title="Archive" aria-label="Archive"
-       href="{{ site.baseurl }}{{ archive_page.url }}">
-      Archive
-    </a>
+
+  <nav id="sidebar-nav-links">
+  {% if tags_page %}
+  <a class="page-link{% if page.url == tags_page.url %} active{% endif %}"
+    href="{{ site.baseurl }}{{ tags_page.url }}">Tag Search</a>
   {% endif %}
-  <br>
+
+
+  {% if archive_page %}
+    <a class="page-link{% if page.url == archive_page.url %} active{% endif %}"
+      href="{{ site.baseurl }}{{ archive_page.url }}">Archive</a>
+  {% endif %}
+</nav>
   {% include custom-icon-links.html %}
 </nav>
