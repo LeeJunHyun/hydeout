@@ -42,17 +42,18 @@
     {% endif %}
   {% endfor %}
 
+  <nav id="sidebar-nav-links">
 
   {% if search_page %}
     <a id="search-link"
-       class="icon{% if page.url == '/search' %} active{% endif %}"
+       class="page-link{% if page.url == search_page.url %} active{% endif %}"
        title="Search" aria-label="Search"
        href="{{ site.baseurl }}{{ search_page.url }}">
-      {% include svg/search.svg %}
+      Keyword Serch
     </a>
   {% endif %}
 
-  <nav id="sidebar-nav-links">
+
   {% if tags_page %}
   <a class="page-link{% if page.url == tags_page.url %} active{% endif %}"
     href="{{ site.baseurl }}{{ tags_page.url }}">Tag Search</a>
