@@ -119,7 +119,8 @@ baseurl:          ''
 ```
 나머지는 본인 설정에 맞게 바꾸어주면 된다.
 
-`_includes`에는 재사용되는 소스들을 넣어준다. 예를 들어, sidebar을 구현해놓은 sidebar.html을 `_includes/sidebar.html` 에 넣어주고 다른 파일에서 갖다쓸 때는 `{% include sidebar.html %}` 을 해주면 된다.
+`_includes`에는 재사용되는 소스들을 넣어준다. 예를 들어, sidebar을 구현해놓은 sidebar.html을 `_includes/sidebar.html` 에 넣어주고 다른 파일에서 갖다쓸 때는 {% raw %}`{% include sidebar.html %}`{% endraw %}
+을 해주면 된다.
 
 `_posts`에는 컨텐츠가 저장된다. 페이지에 글을 올리고 싶다면 여기에 글을 저장하면 된다. 본 포스트는 `_posts/2018-09-01-Github-page.md` 로 저장되어있다.
 
