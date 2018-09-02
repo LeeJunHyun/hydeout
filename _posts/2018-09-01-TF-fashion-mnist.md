@@ -17,6 +17,8 @@ Reference : [TensorFlow Basic Classification](https://www.tensorflow.org/tutoria
 *Fashion-MNIST dataset*
 
 ---
+---
+
 ```python
 # TensorFlow and tf.keras
 import tensorflow as tf
