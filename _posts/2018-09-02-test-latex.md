@@ -19,7 +19,6 @@ Maxwell's equations:
         E'&=\nabla \times B - 4\pi j,
 \end{align}
 
-
 <p>
 
   When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
