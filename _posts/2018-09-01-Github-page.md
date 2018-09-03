@@ -122,7 +122,7 @@ baseurl:          ''
 `_includes`에는 재사용되는 소스들을 넣어준다. 예를 들어, sidebar을 구현해놓은 sidebar.html을 `_includes/sidebar.html` 에 넣어주고 다른 파일에서 갖다쓸 때는 {% raw %}`{% include sidebar.html %}`{% endraw %}
 을 해주면 된다.
 
-`_posts`에는 컨텐츠가 저장된다. 페이지에 글을 올리고 싶다면 여기에 글을 저장하면 된다. 본 포스트는 `_posts/2018-09-01-Github-page.md` 로 저장되어있다.
+`_posts`에는 컨텐츠가 저장된다. 페이지에 글을 올리고 싶다면 여기에 글을 저장하면 된다. 본 포스트는 `_posts/2018-09-01-Github-page.md` 로 저장되어있다. 포스트 이름은 `yyyy-mm-dd-your-posts-name.md` 형식으로 작성하면 된다.
 
 `_layouts`에는 템플릿들을 넣어준다. 각 포스트별로 레이아웃의 템플릿을 지정해주면 여기 넣어둔 템플릿을 사용할 수 있다. 예를 들어, 본 포스트의 레이아웃은 `_layouts/post.html`이며 포스트(`_posts/2018-09-01-Github-page.md`) 상단에 다음과같이 지정해준다.
 ```yml
