@@ -4,6 +4,7 @@ title: About
 sidebar_link: true
 ---
 
+![profile](assets/img/profile.png)
 ### Profile :
 <p class="message">
   B.S. in Biomedical Engineering, <a href="http://www.korea.ac.kr" target="_blank">Korea Univ.</a>, 2011 - 2017<br>
@@ -17,7 +18,10 @@ sidebar_link: true
 
 ### Contact :
 E-mail :    ljhyun33@korea.ac.kr<br>
+<a href="{{ site.github.repo }}">Github</a>
+<a href="{{ site.facebook }}">Facebook</a>
+<a href="{{ site.linkedin }}">Linkedin</a>
+<a href="{{ site.youtube }}">Youtube</a>
+
 Wechat ID : Ant_LJH<br>
-<a href="https://github.com/LeeJunHyun/">Github</a>
-<a href="https://www.facebook.com/junhyun.lee1222">Facebook</a>
-<a href="https://www.linkedin.com/in/junhyun-lee-2a2801136/">Linkedin</a>   
+![wechatcode](/assets/img/wechatcode.png)

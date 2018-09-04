@@ -1,3 +1,4 @@
+<div>
 <nav id="sidebar-icon-links">
   {% if site.github.repo %}
     <a id="github-link"
@@ -21,10 +22,19 @@
   
   <a id="wechat-link"
     class="icon" title="Wechat" aria-label="Wechat"
-    href="https://leejunhyun.github.io/about.html" target="">
+    href="{{site.url}}/about.html" target="">
   {% include svg/wechat.svg %}
   </a>
 
+
+  <a id="youtube-link"
+    class="icon" title="Youtube" aria-label="Youtube"
+    href="{{ site.youtube }}" target="_blank">
+  {% include svg/youtube.svg %}
+  </a>
+
+
+</div>
 
   {% comment %}
     Check if we have tag or search pages page active before linking to it.
