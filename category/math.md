@@ -1,7 +1,7 @@
 ---
 layout: category
-title: Project
+title: Math
 comments: true
 ---
 
-about Project
+about Mathematics

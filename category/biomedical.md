@@ -1,7 +1,7 @@
 ---
 layout: category
-title: Project
+title: Biomedical
 comments: true
 ---
 
-about Project
+about Biomedical domain
