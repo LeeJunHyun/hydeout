@@ -7,8 +7,9 @@ sidebar_link: true
 ![profile](assets/img/profile.png)
 ### Profile :
 <p class="message">
-  B.S. in Biomedical Engineering, <a href="http://www.korea.ac.kr" target="_blank">Korea Univ.</a>, 2011 - 2017<br>
-  (Present) MS&Ph.D Integration Course in Computer Engineering, <a href="http://www.korea.ac.kr" target="_blank">Korea Univ.</a>
+  B.S. in Biomedical Engineering, <a href="http://www.korea.ac.kr" target="_blank">Korea Univ.</a><br><br>
+  [Present]<br>
+  MS&Ph.D Integration Course in Computer Engineering, <a href="http://www.korea.ac.kr" target="_blank">Korea Univ.</a>
 </p>
 
 ### Interests : 
