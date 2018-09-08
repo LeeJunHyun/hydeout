@@ -7,11 +7,13 @@ tags:
   - deep learning
   - geometric deep learning
   - paper review
+excerpt_separator: <!--more-->
 ---
 
-M. M. Bronstein, J. Bruna, Y. LeCun, A. Szlam, P. Vandergheynst, [Geometric deep learning: going beyond Euclidean data](https://arxiv.org/pdf/1611.08097.pdf), IEEE Signal Processing Magazine 2017 
+이 논문을 정리한 포스트입니다.
 
-위 논문을 정리한 포스트입니다.
+[Geometric deep learning: going beyond Euclidean data](https://arxiv.org/pdf/1611.08097.pdf), M. M. Bronstein, J. Bruna, Y. LeCun, A. Szlam, P. Vandergheynst, IEEE Signal Processing Magazine 2017 
+<!--more-->
 
 
 ABSTRACT
