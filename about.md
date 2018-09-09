@@ -8,7 +8,7 @@ sidebar_link: true
 ### Profile :
 <p class="message">
   B.S. in Biomedical Engineering, <a href="http://www.korea.ac.kr" target="_blank">Korea Univ.</a><br>
-  intelligent BioMEMS Laboratory (iBML)<br><br>
+  intelligent Bio-MEMS Laboratory (iBML)<br><br>
   [Present]<br>
   MS&Ph.D Integration Course in Computer Engineering, <a href="http://www.korea.ac.kr" target="_blank">Korea Univ.</a>
   Data Mining and Imformation Systems Laboratory (DMIS)
