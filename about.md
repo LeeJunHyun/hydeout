@@ -6,6 +6,7 @@ sidebar_link: true
 
 ![profile](assets/img/profile.png)
 ### Profile :
+[Here is my C.V.](/assets/CV.pdf)<br>
 <p class="message">
   B.S. in Biomedical Engineering, <a href="http://www.korea.ac.kr" target="_blank">Korea Univ.</a><br>
   intelligent Bio-MEMS Laboratory (iBML)<br><br>
